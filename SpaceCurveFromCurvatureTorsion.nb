@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       157,          7]
-NotebookDataLength[     14169,        363]
-NotebookOptionsPosition[     13380,        333]
-NotebookOutlinePosition[     13735,        349]
-CellTagsIndexPosition[     13692,        346]
+NotebookDataLength[     13019,        327]
+NotebookOptionsPosition[     12382,        302]
+NotebookOutlinePosition[     12737,        318]
+CellTagsIndexPosition[     12694,        315]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -26,6 +26,15 @@ Cell[BoxData[
   3.619311893248776*^9}, {3.619312116198614*^9, 3.619312116846705*^9}, {
   3.619312667337386*^9, 3.6193126675269337`*^9}, {3.619314706858203*^9, 
   3.6193147218649406`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"(*", " ", 
+  RowBox[{
+  "Setting", " ", "either", " ", "\[Kappa]", " ", "or", " ", "\[Tau]", " ", 
+   "to", " ", "the", " ", "zero", " ", "function", " ", "prevents", " ", 
+   "mathematica", " ", "from", " ", "being", " ", "able", " ", "to", " ", 
+   "solve", " ", "properly"}], " ", "*)"}]], "Input",
+ CellChangeTimes->{{3.6193179221900463`*^9, 3.619317950875836*^9}}],
 
 Cell[BoxData[{
  RowBox[{
@@ -213,46 +222,6 @@ Cell[BoxData[
 Cell[CellGroupData[{
 
 Cell[BoxData[
- RowBox[{"FindMaximum", "[", 
-  RowBox[{
-   RowBox[{
-    RowBox[{"\[Gamma]", "[", "s", "]"}], "[", 
-    RowBox[{"[", "1", "]"}], "]"}], ",", " ", 
-   RowBox[{"{", 
-    RowBox[{"s", ",", " ", "0", ",", " ", "sMax"}], "}"}]}], "]"}]], "Input",
- CellChangeTimes->{{3.6193171824785137`*^9, 3.619317202582656*^9}}],
-
-Cell[BoxData[
- RowBox[{
-  StyleBox[
-   RowBox[{"FindMaximum", "::", "cvmit"}], "MessageName"], 
-  RowBox[{
-  ":", " "}], "\<\"Failed to converge to the requested accuracy or precision \
-within \[NoBreak]\\!\\(100\\)\[NoBreak] iterations. \\!\\(\\*ButtonBox[\\\"\
-\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", ButtonFrame->None, \
-ButtonData:>\\\"paclet:ref/message/FindMaximum/cvmit\\\", ButtonNote -> \
-\\\"FindMaximum::cvmit\\\"]\\)\"\>"}]], "Message", "MSG",
- CellChangeTimes->{3.619317203054566*^9, 3.619317329192768*^9, 
-  3.6193174044882307`*^9}],
-
-Cell[BoxData[
- RowBox[{"FindMaximum", "[", 
-  RowBox[{
-   RowBox[{
-    RowBox[{"\[Gamma]", "[", "s", "]"}], "\[LeftDoubleBracket]", "1", 
-    "\[RightDoubleBracket]"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"s", ",", "0", ",", "sMax"}], "}"}]}], "]"}]], "Output",
- CellChangeTimes->{{3.619317195589274*^9, 3.619317203062941*^9}, 
-   3.6193173291958847`*^9, 3.619317404494424*^9}]
-}, Open  ]],
-
-Cell[BoxData[""], "Input",
- CellChangeTimes->{{3.619317110984015*^9, 3.6193171127911386`*^9}}],
-
-Cell[CellGroupData[{
-
-Cell[BoxData[
  RowBox[{"Manipulate", "[", 
   RowBox[{
    RowBox[{"Show", "[", 
@@ -349,21 +318,16 @@ CellTagsIndex->{}
 (*NotebookFileOutline
 Notebook[{
 Cell[557, 20, 399, 7, 27, "Input"],
-Cell[959, 29, 874, 19, 67, "Input"],
-Cell[1836, 50, 1316, 33, 88, "Input"],
-Cell[3155, 85, 803, 21, 88, "Input"],
-Cell[3961, 108, 1000, 26, 27, "Input"],
-Cell[4964, 136, 943, 25, 43, "Input"],
-Cell[5910, 163, 2284, 47, 223, "Input"],
+Cell[959, 29, 393, 7, 27, "Input"],
+Cell[1355, 38, 874, 19, 67, "Input"],
+Cell[2232, 59, 1316, 33, 88, "Input"],
+Cell[3551, 94, 803, 21, 88, "Input"],
+Cell[4357, 117, 1000, 26, 27, "Input"],
+Cell[5360, 145, 943, 25, 43, "Input"],
+Cell[6306, 172, 2284, 47, 223, "Input"],
 Cell[CellGroupData[{
-Cell[8219, 214, 323, 8, 27, "Input"],
-Cell[8545, 224, 555, 11, 23, "Message"],
-Cell[9103, 237, 376, 9, 27, "Output"]
-}, Open  ]],
-Cell[9494, 249, 94, 1, 27, "Input"],
-Cell[CellGroupData[{
-Cell[9613, 254, 1128, 24, 27, "Input"],
-Cell[10744, 280, 2620, 50, 765, "Output"]
+Cell[8615, 223, 1128, 24, 27, "Input"],
+Cell[9746, 249, 2620, 50, 765, "Output"]
 }, Open  ]]
 }
 ]
